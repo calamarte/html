@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Ayuda</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ayuda</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Indice</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="quien_soy.html">¿Quien soy?</a></li>
+        <li><a href="ayuda.html">Ayuda</a></li>
+        <li><a href="juego.html">Juego</a></li>
+        <li><a href="configuracion_juego.html">Configuración del juego</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h2>Guía</h2>
+        <p>
+          El objetivo del buscaminas es lograr descubrir la localización de los cuadros con minas pero sin hacer clic en estos, es decir, localizarlos pero por intuición, prestando atención a los cuadros numéricos que ayudan a revelar la ubicación de las minas.
+        </p>
+        <p>
+          Podés empezar haciendo clic en algunos casilleros. Con suerte podes hacer clic en un cuadro numérico y que este habilite a su vez una zona completa de cuadros numéricos o en blanco ya que con un solo cuadro numérico no podrás hacer absolutamente nada. Puede ser, que en el intento de descubrir casilleros numéricos o en blanco en el inicio del juego, te encuentres con minas. Para empezar, podés modificar en las opciones del juego, la cantidad de minas que hallan en función del número total de casilleros, por ejemplo, 10 minas en 100 casilleros.
+        </p>
+        <p>
+          Cada casillero, excepto claro los mina, describen un número o pueden estar en blanco. Ese número indica la cantidad de cuadros con minas que hay en los casilleros que rodean al número. El área que considera el número, son los casilleros que lo rodean. Es decir, si el casillero en que se hizo clic mostro un 2, eso significa que en los 8 cuadros que rodean o cuadran al número hay 2 de ellos que poseen minas. Cuando en el casillero que marcamos esta en blanco, no hay minas rodeándolo, y directamente se descubre una zona completa de casilleros sin minas, lo cual facilita el trabajo.
+        </p>
+        <p>
+          Tomando el anterior ejemplo, si hacemos clic en un casillero y nos muestra el 2, y los 8 cuadros que lo delimitan no han sido descubiertos, no conviene cliquear al azar algunos de estos cuadros pues existen 2 de 8 posibilidades que sean minas. Ahora, si de los 8 casilleros están descubiertos 6, significa que los 2 casilleros sin descubrir son minas, por ende los dejamos de lado.
+        </p>
+        <p>
+          Los casilleros que no se hallan delimitados por minas, directamente aparecerán en blanco.
+        </p>
+        <p>
+          Entonces, el juego consiste en utilizar los cuadros numéricos para ir determinando los casilleros que poseen minas y cuales no, y los que no a su vez pueden estar en blanco o mostrar otro número y así sucesivamente hasta descubrir todos los casilleros que no poseen minas. Si vemos que la posibilidad de hallar minas en los cuadros que delimitan a un número son muy elevadas (por ejemplo si el nº es 6), podemos seguir con otro casillero numérico cercano que nos dará más indicios de qué casilleros poseen minas. Descubrir casilleros que no poseen minas a su alrededor, significa que se descubra de una sola vez varios casilleros sin número que ayudan a despejar la zona, como ya dije.
+        </p>
+        <p>
+          Como consejo personal, siempre empieza por los casilleros más obvios de determinar cuales son minas y cuales no, porque al final te ayudarán a revelar los casos más incógnitos.
+        </p>
+        <p>
+          El juego acaba en cuanto descubriste todos los casilleros numéricos y los en blanco, siempre y cuando los cuadros que dejaste sin descubrir contengan minas. Si te equivocas en los cálculos y haces clic en un cuadro mina, entonces perderás la partida completa.
+        </p>
+        <video controls autoplay>
+          <source src="https://www.youtube.com/watch?v=Oes6IrpctJ0" type="video/mp4">
+          <source src="https://www.youtube.com/watch?v=5Qu-AjHkQ54" type="video/mp4">
+          <source src="https://www.youtube.com/watch?v=gbQqZvJ-62o" type="video/mp4">
+          <source src="https://www.youtube.com/watch?v=HZFRjAEPEsE" type="video/mp4">
+        </video>
+      </section>
+    </main>
+  </body>
+</html>
