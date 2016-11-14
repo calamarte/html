@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  charset="utf-8">
+    <meta name="description" content="Informacion personal">
+    <meta name="keyswords" content="juego,videojuego,buscaminas">
+    <meta name="author" content="Jose Navarro">
+    <title>Configuración</title>
+  </head>
+  <body>
+    <header>
+      <h1>Configuración</h1>
+    </header>
+    <nav>
+    <ul>
+     <li><a href="index.html">Indice</a></li>
+     <li><a href="contacto.html">Contacto</a></li>
+     <li><a href="quien_soy.html">¿Quien soy?</a></li>
+     <li><a href="ayuda.html">Ayuda</a></li>
+     <li><a href="juego.html">Juego</a></li>
+     <li><a href="configuracion_juego.html">Configuración del juego</a></li>
+   </ul>
+   </nav>
+   <section>
+     <h2>Opciones</h2>
+     <form action="index.html" method="post"><!--Sonido, Tamaño, Dificultad-->
+       Dificultad
+       <select name="dificultad">
+         <option value="facil">Facil</option>
+         <option selected value="normal">Normal</option>
+         <option value="dificil">Difícil</option>
+       </select>
+       Tamaño
+       <select name="tamaño">
+         <option value="pequeño">Pequeño</option>
+         <option selected value="mediano">Mediano</option>
+         <option value="grande">Grnade</option>
+       </select>
+       Sonido
+       <select name="sonido">
+         <option value="mute">Silencio</option>
+         <option selected="" value="normal">Normal</option>
+         <option value="fuerte">Fuerte</option>
+       </select>
+     </form>
+   </section>
+  </body>
+</html>
