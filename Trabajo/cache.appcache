@@ -1,6 +1,7 @@
 CACHE MANIFEST
 #11/11/16
-#he utilizado solo un documento .appcache para todo el trabajo.
+#Solo he creado un cache para todos los archivos
+#No se si es lo adecuado o es mejor hacer uno para cada archivo
 /index.html
 /ayuda.html
 /configuracion_juego.html
